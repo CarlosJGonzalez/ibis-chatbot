@@ -1,0 +1,182 @@
+{
+  "organization": {
+    "name": "iBis Learning",
+    "website": "https://ibislearning.com",
+    "founder": "Ligia \"GiGi\" Vasquez (TEA-certified PreK–6 bilingual teacher)",
+    "location": {
+      "address": "1957 Sherwood Forest Street, Houston, TX 77043",
+      "neighborhood": "Spring Branch, Houston, TX",
+      "service_areas": ["Spring Branch", "Energy Corridor", "Memorial", "Cy-Fair", "Greater Houston Area"]
+    },
+    "contact": {
+      "phone": "(713) 568-4525",
+      "email": "info@ibislearning.com",
+      "whatsapp_available": true,
+      "contact_page": "https://ibislearning.com/contact"
+    },
+    "accreditation_and_safety": {
+      "accreditation": "Middle States Association (MSA) Candidate for Accreditation (pursuing TEA approval for Texas Education Freedom Account / TEFA)",
+      "campus_security": "Closed campus during school hours; doors locked; tours/visits by appointment only; official photo ID required at check-in; surveillance across classrooms, common areas, parking lot, and playground.",
+      "class_size_cap": 12,
+      "languages": ["English", "Spanish"],
+      "age_and_grade_range": "Kindergarten to 5th grade (ages 5–11) / Pre-K4 to 5th grade (ages 4–11 depending on program)"
+    }
+  },
+  "menu_structure": [
+    {
+      "label": "About",
+      "children": [
+        { "label": "About Us", "path": "/about/about-us" },
+        { "label": "Our People", "path": "/about/our-people" }
+      ]
+    },
+    {
+      "label": "Homeschool Families",
+      "path": "/homeschool-families"
+    },
+    {
+      "label": "Programs & Scheduling",
+      "children": [
+        { "label": "Program Overview", "path": "/programs-scheduling/program-overview" },
+        { "label": "Core Instruction (AM)", "path": "/programs-scheduling/core-instruction-am" },
+        { "label": "Full Day Experience", "path": "/programs-scheduling/full-day-experience" },
+        { "label": "Learning Beyond the Core (PM)", "path": "/programs-scheduling/learning-beyond-the-core-pm" },
+        { "label": "Friday Exploration and Stem Labs", "path": "/programs-scheduling/friday-exploration-and-stem-labs" },
+        { "label": "Summer Camp", "path": "/programs-scheduling/summer-camp" },
+        { "label": "Program FAQ", "path": "/programs-scheduling/program-faq" }
+      ]
+    },
+    {
+      "label": "Enrollment",
+      "children": [
+        { "label": "Enrollment FAQ", "path": "/enrollment/enrollment-faq" }
+      ]
+    },
+    {
+      "label": "Blog",
+      "path": "/blog"
+    },
+    {
+      "label": "Contact",
+      "path": "/contact"
+    },
+    {
+      "label": "Utility & Action Links",
+      "children": [
+        { "label": "Schedule a Tour", "path": "/schedule-a-tour" },
+        { "label": "Enroll Now", "path": "/enroll-now" },
+        { "label": "Resources", "path": "/resources" },
+        { "label": "Terms & Conditions", "path": "/terms-and-conditions" },
+        { "label": "Privacy Policy", "path": "/privacy-policy" }
+      ]
+    }
+  ],
+  "programs_and_plans": [
+    {
+      "id": "core_instruction_am",
+      "name": "Core Instruction (AM)",
+      "schedule": "Mon–Thu, 8:30 AM – 12:30 PM",
+      "grades_ages": "Kindergarten to 5th grade (5yrs to 11yrs)",
+      "summary": "Four hours of structured bilingual (English–Spanish) academics covering literacy, math, inquiry-based learning, and daily focus/self-management skills."
+    },
+    {
+      "id": "learning_beyond_core_pm",
+      "name": "Learning Beyond the Core (PM)",
+      "schedule": "Mon–Thu, 12:30 PM – 3:30 PM",
+      "grades_ages": "Pre-K to 5th grade (4yrs to 11yrs)",
+      "summary": "Three hours of hands-on, project-based afternoon enrichment including art, science, movement, creative exploration, and peer community. Available as an extension or standalone for homeschool families."
+    },
+    {
+      "id": "full_day_experience",
+      "name": "Full Day Experience",
+      "schedule": "Mon–Thu, 8:30 AM – 3:30 PM",
+      "grades_ages": "Pre-K to 5th grade (4yrs to 11yrs)",
+      "summary": "Combines morning Core Instruction (AM) and afternoon Learning Beyond the Core (PM) for a complete bilingual school day."
+    },
+    {
+      "id": "exploration_fridays_stem_lab",
+      "name": "Exploration Fridays & STEM Lab",
+      "schedule": "Fridays, 8:30 AM – 3:30 PM",
+      "grades_ages": "Pre-K to 5th grade (4yrs to 11yrs)",
+      "summary": "Full-day hands-on inquiry featuring STEM challenges, bilingual Story Lab, and discovery activities. Available standalone or added to a Mon–Thu schedule."
+    },
+    {
+      "id": "summer_camp",
+      "name": "Summer Camps",
+      "schedule": "Weekly sessions during Summer",
+      "grades_ages": "Kindergarten to 5th grade (5yrs to 11yrs)",
+      "summary": "Bilingual English–Spanish immersion camps (e.g., Medieval Times themes) designed to prevent summer learning loss through literacy, storytelling, art, play, and self-management. Reported weekly tuition example: $450/week + $50 non-refundable registration fee."
+    },
+    {
+      "id": "homeschool_hybrid",
+      "name": "Homeschool / Modular Hybrid Model",
+      "schedule": "Customizable (AM only, PM only, Fridays only, or combinations)",
+      "grades_ages": "Pre-K4 to 5th grade (4yrs to 11yrs)",
+      "summary": "No minimum daily attendance required; includes take-home learning materials, trimester calendar, and parent partnership while families handle remaining homeschooling."
+    }
+  ],
+  "tuition_and_enrollment": {
+    "enrollment_model": "Year-round enrollment with flexible start dates based on availability and student readiness; max 12 students per class.",
+    "three_step_process": [
+      "1. Reach out to request information and receive program/tuition details tailored to the family.",
+      "2. Schedule and complete an in-person family tour to meet GiGi and the team and see the classroom.",
+      "3. Receive access to the online Guest Area to complete enrollment forms and documentation once moving forward."
+    ],
+    "tuition_starting_point": "Starts at $378 per installment (10 installments total) for the academic year; personalized plans depend on program and schedule.",
+    "discounts": [
+      "5% discount for paying full annual tuition upfront",
+      "10% sibling discount for enrolling more than one child",
+      "Discounts cannot be combined"
+    ],
+    "financial_aid_and_tefa": "Limited founding family scholarships available; pursuing accreditation/approval for Texas Education Freedom Account (TEFA / ESA) funds."
+  },
+  "forms_and_inquiries": [
+    {
+      "type": "Family Tour Request",
+      "purpose": "Book an in-person tour before enrolling; helps visitors meet staff and view classrooms.",
+      "action_hint": "Direct families to Schedule a Tour or Contact Us."
+    },
+    {
+      "type": "Enroll Now / Application",
+      "purpose": "Intended after completing a tour; involves submitting application details and a $150 non-refundable application fee (does not guarantee enrollment or placement).",
+      "action_hint": "Confirm tour completion first and direct to /enroll-now."
+    },
+    {
+      "type": "2-Minute Fit Quiz & Toolkit",
+      "purpose": "Helps families check fit with iBis Learning's bilingual, executive-function model and offers a free Focus and Self-Management Skills toolkit.",
+      "action_hint": "Mention the 2-minute quiz on the home page."
+    },
+    {
+      "type": "General Inquiries & Camp Interest Forms",
+      "purpose": "Ask about custom schedules, tuition plans, TEFA/scholarships, or seasonal camp interest/registration.",
+      "action_hint": "Direct to /contact, phone (713) 568-4525, email info@ibislearning.com, or WhatsApp."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does my child have to attend every day?",
+      "a": "No. iBis Learning uses a modular schedule with no minimum daily commitment. Families can enroll for Mornings only (Mon–Thu, 8:30 AM–12:30 PM), Afternoons only (Mon–Thu, 12:30 PM–3:30 PM), Fridays only (8:30 AM–3:30 PM), Full Days (Mon–Thu, 8:30 AM–3:30 PM), or custom combinations.",
+      "related_path": "/programs-scheduling/program-overview"
+    },
+    {
+      "q": "What grades and ages does iBis Learning serve?",
+      "a": "iBis Learning serves students from Pre-K4 through 5th grade (ages 4–11 depending on the program; Core Instruction AM and Summer Camp serve Kindergarten–5th grade, ages 5–11) in small classes capped at 12 students.",
+      "related_path": "/programs-scheduling/program-faq"
+    },
+    {
+      "q": "How does the bilingual English–Spanish instruction work?",
+      "a": "Children learn in both English and Spanish through dedicated, focused language blocks rather than rapid switching, building genuine biliteracy alongside daily focus and self-management skills. Homeschool students also receive take-home materials to reinforce both languages at home.",
+      "related_path": "/homeschool-families"
+    },
+    {
+      "q": "Is iBis Learning accredited, and can we use Texas Education Savings Accounts (ESA / TEFA)?",
+      "a": "iBis Learning is a Candidate for Accreditation with the Middle States Association (MSA), led by TEA-certified bilingual founder Ligia 'GiGi' Vasquez, and is pursuing TEA approval as an Education Savings Account (TEFA/ESA) provider. Contact the team directly for the latest TEFA status and founding family scholarship options.",
+      "related_path": "/enrollment/enrollment-faq"
+    },
+    {
+      "q": "How do we enroll, and do we need to tour first?",
+      "a": "Enrollment is open year-round in three steps: (1) reach out for program and tuition details, (2) schedule an in-person family tour by appointment (valid photo ID required at check-in), and (3) complete enrollment forms in the online Guest Area. Submitting an application via Enroll Now requires a $150 non-refundable application fee and does not guarantee placement.",
+      "related_path": "/schedule-a-tour"
+    }
+  ]
+}
