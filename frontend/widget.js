@@ -69,7 +69,7 @@
         <div class="msg bot">Hello, how could I help you?</div>
       </div>
       <form class="input-area">
-        <input type="text" placeholder="Escribe un mensaje..." required />
+        <input type="text" placeholder="Send a question..." required />
         <button type="submit" class="send-btn">Enviar</button>
       </form>
     </div>
@@ -116,7 +116,10 @@
     try {
       const response = await fetch(API_URL, {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
+        headers: { 
+          'Content-Type': 'application/json',
+          'ngrok-skip-browser-warning': 'true'
+        },
         body: JSON.stringify({ messages: history })
       });
 
@@ -152,12 +155,17 @@
             const data = JSON.parse(payload);
             if (data.error) throw new Error(data.error);
 
-            if (data.token) {
+            const deltaToken =
+              typeof data.token === 'string'
+                ? data.token
+                : data.choices?.[0]?.delta?.content || '';
+
+            if (deltaToken) {
               if (firstToken) {
                 botBubble.textContent = '';
                 firstToken = false;
               }
-              fullReply += data.token;
+              fullReply += deltaToken;
               botBubble.textContent = fullReply;
               messagesBox.scrollTop = messagesBox.scrollHeight;
             }
